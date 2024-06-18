@@ -36,26 +36,6 @@
     #navbar_alt_list li:hover{
         background-color: #F0FDF9;
     }
-    /* #navbar_sort_img{
-        position: relative;
-        display: inline-block;
-        width: 24px;
-        height: 24px;
-    }
-    #navbar_sort_img:hover #navbar_alternate{
-        display: flex;
-    } */
-    /* .navbar_alternate{
-        display: flex;
-        flex-direction: row-reverse;
-        width: 500px;
-        background-color: green;
-    }
-    #navbar_alternate_ul{
-        display: block;
-        background-color: blanchedalmond;
-        text-align: left;
-    } */
     .page1{
         padding: 0;
     }
@@ -115,7 +95,6 @@
     .about_us_content{
         width: 680px;
         gap: 48px;
-        /* background-color: blueviolet; */
     }
     .about_us_content1{
       justify-content: space-between;
@@ -192,24 +171,18 @@
         flex-direction: column;
         padding: 48px 32px;
         max-width: 100%;
-        /* max-height: 537px; */
-        /* background-color: red; */
         gap: 48px;
     }
     .alternate_listing_menu{
         display: flex;
         flex-direction: column;
-        /* flex-wrap: wrap; */
-        /* background-color: bisque; */
         gap: 20px;
     }
     .alternate_listing_menu_item{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        /* justify-content: space-between; */
-        /* background-color: greenyellow; */
-        /* border:0px 0px 0.5px 0px solid black; */
+        border-bottom: 0.5px solid black;
     }
     .alternate_listing_menu_item p{
         margin: 0;
@@ -219,7 +192,6 @@
         color: #475467;
     }
     .alternate_listing_menu_item_title{
-        /* background-color: gold; */
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -240,7 +212,6 @@
     .alternate_listing_menu_item li:hover{
         background-color:#F0FDF9;
     }
-
 
     #alternate_listing_company_content{
         display: none;
@@ -274,8 +245,6 @@
         margin: 0;
         padding: 0;
     }
-
-
     .listing_page_footer{
         display: flex;
         flex-wrap: wrap;
