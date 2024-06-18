@@ -7,7 +7,6 @@
         padding: 0px 20px;
     }
     .welcome_page_div{
-        /* background-color: red; */
         padding: 64px 16px;
     }
     .welcome_page_image img{
@@ -17,7 +16,6 @@
     .welcome_page_content_text{
         max-width: 343px;
         padding: 0;
-        /* gap: 2; */
     }
     .welcome_page_content_text  h1{
         margin: 0;
@@ -34,12 +32,8 @@
     .welcome_page_content_text  img{
        max-width: 100%;
     }
-    /* .about_us_main{
-        gap: 28px;
-    } */
     .about_us_content{
         width: 343px;
-        /* background-color: magenta; */
         gap: 32px;
     }
     .about_us_image img{
