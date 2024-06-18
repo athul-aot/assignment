@@ -2,6 +2,9 @@
     .navbar_div{
       padding: 16px;
     }
+    #navbar_alt_list{
+        width: 63%;
+    }
     .welcome_page_div{
         /* background-color: red; */
         padding: 64px 16px;

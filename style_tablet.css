@@ -9,10 +9,34 @@
     .navbar{
       display: none;
     }
-    .login_signup{
+    #login,#signup{
       display: none;
     }
-    #navbar_sort_img{
+    #navbar_alternate{
+        display: block;
+    }
+    #check_btn:checked ~ #navbar_alt_list{
+        display: block;
+    }
+    #check_btn:checked ~ #close_img{
+        display: inline-block;
+    }
+    #check_btn:checked ~ #sort_img{
+        display: none;
+    }
+    #check_btn{
+        display: none;
+    }
+    #close_img{
+        display: none;
+    }
+    #navbar_alt_list li{
+        padding: 5px;
+    }
+    #navbar_alt_list li:hover{
+        background-color: #F0FDF9;
+    }
+    /* #navbar_sort_img{
         position: relative;
         display: inline-block;
         width: 24px;
@@ -20,7 +44,7 @@
     }
     #navbar_sort_img:hover #navbar_alternate{
         display: flex;
-    }
+    } */
     /* .navbar_alternate{
         display: flex;
         flex-direction: row-reverse;
