@@ -167,7 +167,6 @@ header{
 }
 .page2_main{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 }
 .about_us_main{
