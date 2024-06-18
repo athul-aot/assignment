@@ -1,0 +1,129 @@
+@media only screen and (max-device-width: 480px){
+    .navbar_div{
+      padding: 16px;
+    }
+    #navbar_alt_list{
+        width: 85%;
+        padding: 0px 20px;
+    }
+    .welcome_page_div{
+        padding: 64px 16px;
+    }
+    .welcome_page_image img{
+        width: 343px;
+        height: 343px;
+    }
+    .welcome_page_content_text{
+        max-width: 343px;
+        padding: 0;
+    }
+    .welcome_page_content_text  h1{
+        margin: 0;
+        padding: 0;
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .welcome_page_content_text  p{
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .welcome_page_content_text  img{
+       max-width: 100%;
+    }
+    .about_us_content{
+        width: 343px;
+        gap: 32px;
+    }
+    .about_us_image img{
+        max-width: 343px;
+        max-height: 343px;
+    }
+    .page2 h1{
+        font-size: 30px;
+        line-height: 38px;
+        font-weight: 600;
+    }
+    #about_us_para1{
+        margin: 0;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .Feature_container{
+        padding: 64px 16px;
+    }
+    .Features_page_subcontent{
+        gap: 20px;
+        max-width: 343px;
+    }
+    .Features_page_text{
+        max-width:295px ;
+    }
+    .Feature_container_title_text h1{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    #Features_page_para2{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .Feature_container h1{
+        font-size: 10px;
+        line-height: 38px;
+    }
+    .Feature_container_title_text{
+        gap: 16px;
+    }
+    #Features_page_para2{
+        font-size: 18px;
+    }
+    .Features_page_text h2{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .tools_container{
+        max-width: 375px;
+        padding: 64px 16px;
+        gap: 48px;
+    }
+    .tools_image img{
+        max-width: 343px;
+    }
+    .tools_contents{
+        max-width: 343px;
+    }
+    .tools_contents p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .page5{
+        padding:32px 16px;
+    }
+    .tryit_content h1{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .tryit_content p{
+        text-align: center;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #tryit_btn{
+        width: 100%;
+        padding: 12px 20px ;
+    }
+
+    .alternate_listing_menu_parent{
+        padding: 48px 16px;
+        gap: 48px;
+    }
+
+    .listing_page_footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom:32px;
+        gap: 12px;
+    }
+}

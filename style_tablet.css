@@ -1,0 +1,255 @@
+@media only screen and (max-width: 1024px){
+    header{
+        padding: 0;
+    }
+    .navbar_div_parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+      display: none;
+    }
+    #login,#signup{
+      display: none;
+    }
+    #navbar_alternate{
+        display: block;
+    }
+    #check_btn:checked ~ #navbar_alt_list{
+        display: block;
+    }
+    #check_btn:checked ~ #close_img{
+        display: inline-block;
+    }
+    #check_btn:checked ~ #sort_img{
+        display: none;
+    }
+    #check_btn{
+        display: none;
+    }
+    #close_img{
+        display: none;
+    }
+    #navbar_alt_list li{
+        padding: 5px;
+    }
+    #navbar_alt_list li:hover{
+        background-color: #F0FDF9;
+    }
+    .page1{
+        padding: 0;
+    }
+    .welcome_page_div{
+        padding: 64px 32px;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 32px;
+    }
+    .welcome_page_content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .welcome_page_content_text  img{
+        margin:0;
+        padding:0;
+    }
+    .welcome_page_image{
+        justify-content: center;
+        align-items: center;
+    }
+    .welcome_page_image img{
+        max-width: 450px;
+        height: 450px;
+    }
+    .welcome_page_content_button{
+        justify-content: center;
+    }
+    #tryitfree_btn{
+        width: 100%;
+    }
+    .welcome_page_content_text{
+        /* background-color: yellow; */
+        max-width: 680px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 50px;
+        align-items: center;
+        text-align: center;
+        gap: 24px;
+    }
+    .welcome_page_content_text  img{
+        margin:0;
+        padding: 0;
+    }
+    .page2{
+        padding: 0;
+    }
+    .about_us_main{
+        padding: 0;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 48px;
+    }
+    .about_us_content{
+        width: 680px;
+        gap: 48px;
+    }
+    .about_us_content1{
+      justify-content: space-between;
+    }
+    .about_us_content2{
+        justify-content: space-between;
+      }
+    .about_us_image img{
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .page3{
+        background: #125D56;
+        padding: 0px;
+        gap: 0px;
+    }
+    .Feature_container_title_text{
+        gap: 20px;
+    }
+    .Feature_container{
+        padding: 64px 32px;
+    }
+    .Features_page_content_div{
+        padding: 0;
+    }
+    .Features_page_subcontent{
+        gap: 32px;
+        max-width: 324px;
+        max-height: 296px;
+    }
+    .Features_page_text{
+        max-width:276px ;
+    }
+    .page4{
+        padding: 0;
+    }
+    .tools_container{
+        flex-direction: column-reverse;
+        max-width: 744px;
+        padding: 64px 32px;
+        gap: 48px;
+        justify-content: center;
+    }
+    .tools_image img{
+        max-width: 500px;
+    }
+    .tools_contents{
+        max-width: 680px;
+    }
+    .tools_contents h1{
+        line-height: 38px;
+        font-size: 30px;
+    }
+    .page5{
+        padding:64px 32px;
+        gap: 10px;
+    }
+    .tryit_container{
+        padding: 64px 32px;
+    }
+
+    .listing_page_content{
+        display: none;
+    }
+    .listing_page{
+        padding: 0;
+    }
+    hr{
+        margin-top: 30px;
+    }
+    .alternate_listing_menu_parent{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 48px 32px;
+        max-width: 100%;
+        gap: 48px;
+    }
+    .alternate_listing_menu{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .alternate_listing_menu_item{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-bottom: 0.5px solid black;
+    }
+    .alternate_listing_menu_item p{
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+        color: #475467;
+    }
+    .alternate_listing_menu_item_title{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+    .alternate_listing_menu_item ul{
+        list-style-type: none;
+        padding-left:5px;
+    }
+    .alternate_listing_menu_item li{
+        padding:12px 16px ;
+        /* background-color: gray; */
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+    }
+    .alternate_listing_menu_item li:hover{
+        background-color:#F0FDF9;
+    }
+
+
+    #alternate_listing_company_content{
+        display: none;
+    }
+    #alternate_listing_company:hover #alternate_listing_company_content{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    #alternate_listing_sales_content{
+        display: none;
+    }
+    #alternate_listing_sales:hover #alternate_listing_sales_content{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    #alternate_listing_resources_content{
+        display: none;
+    }
+    #alternate_listing_resources:hover #alternate_listing_resources_content{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    #alternate_listing_support_content{
+        display: none;
+    }
+    #alternate_listing_support:hover #alternate_listing_support_content{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .listing_page_footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+}
