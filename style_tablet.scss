@@ -1,4 +1,5 @@
 @media only screen and (max-width: 1024px){
+    $font-color1: #101828;
     header{
         padding: 0;
         .navbar-parent{
@@ -123,11 +124,118 @@
 
     }
     .footer-page{
+        align-items: center;
+        margin: auto;
+        // align-items: center;
+        padding: 0;
         .accordion{
             display: none;
         }
+
         .alternate-accordion-menu-parent{
+            max-width: 744px;
+            background-color: red;
             display: flex;
+            flex-direction: column;
+            padding: 48px 32px 0px 32px;
+            gap: 48px;
+            flex: 1;
+            .accordion-page-logo{
+                display: flex;
+                // flex: 1;
+                max-width: 265px;
+                gap: 10px;
+                background-color: blue;
+                img{
+                    max-width: 48px;
+                }
+                h1{
+                    color:$font-color1 ;
+                    font-size: 36px;
+                    line-height: 44px;
+                    font-weight: 600;
+                }
+            }
+            .alternate-accordion-menu-footer{
+                display: flex;
+                flex-direction: column;
+                max-width: 680px;
+                flex: 1;
+                background-color:maroon;
+                gap: 16px;
+                .alternate-accordion-menu{
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 680px;
+                    gap: 20px;
+                    background-color: yellow;
+                    .alternate-accordion-menu-item{
+                        // padding: 0px 0px 20px 0px;
+                        gap: 12px;
+                        .check-btn{
+                            display: none;
+                        }
+                        #company-check:checked ~ #alternate-accordion-company-content{
+                            display: block;
+                        }
+                        // #company-check:checked ~ #company-expand{
+                        //     display: none;
+                        // }
+                        #sales-check:checked ~ #alternate-accordion-sales-content{
+                            display: block;
+                        }
+
+                        #resources-check:checked ~ #alternate-accordion-resources-content{
+                            display: block;
+                        }
+                        #support-check:checked ~ #alternate-accordion-support-content{
+                            display: block;
+                        }
+
+
+                        .alternate-accordion-menu-item-title{
+                            background-color: gray;
+                            display: flex;
+                            flex: 1;
+                            justify-content: space-between;
+                            padding:0px 0px 20px 0px ;
+                            p{
+                                color: #475467;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px;
+                            }
+                            img{
+                                max-width: 24px;
+                            }
+
+                        }
+                    }
+                }
+                .alternate-footer-page-bottom{
+                    background-color: pink;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    max-width: 680px;
+                    padding:32px 0px;
+                    .alternate-footer-page-bottom-icons{
+                        align-items: center;
+                        max-width:168px ;
+                        background-color: orange;
+                        img{
+                            max-width: 36px;
+                            gap: 8px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        .footer-page-bottom {
+            display: none;
         }
     }
     

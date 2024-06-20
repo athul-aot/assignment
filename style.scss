@@ -639,8 +639,27 @@ header {
     }
     .alternate-accordion-menu-parent{
         display: none;
+        .alternate-accordion-menu-footer{
+            .alternate-accordion-menu{
+                .alternate-accordion-menu-item{
+                    ul{
+                        display: none;
+                        list-style-type: none;
+                        padding: 0;
+                        li{
+                            max-width: 680px;
+                            padding: 6px 12px;
+                            background-color: blue;
+                            border-radius: 8px;
+                        }
+                        li:hover{
+                            background-color: #F0FDF9;
+                        }
+                    }
+                }
+            }
+        }
     }
-
     .footer-page-bottom {
         max-width: 1280px;
         padding: 31px 32px;
