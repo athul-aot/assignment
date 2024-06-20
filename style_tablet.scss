@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1024px){
+    header{
+        // background-color: gray;
+        padding: 0;
+        .navbar-parent{
+            padding: 18px 32px;
+            .navbar-left{
+                .navbar-left-menu{
+                    display: none;
+                }
+            }
+            .navbar-right{
+                #navbar-alternate{
+                    display: block;
+                    #check-btn, #navbar-alt-list,#close-img{
+                        display: none;
+                    }
+                    #check-btn:checked ~ #navbar-alt-list{
+                        display: block;
+                    }
+                    #check-btn:checked ~ #close-img{
+                        display: inline-block;
+                    }
+                    #check-btn:checked ~ #sort-img{
+                        display: none;
+                    }
+                }
+                #login,#signup{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+.page1{
+    padding: 0;
+    .welcome-page-parent{
+        flex-direction: column-reverse;
+        padding: 64px 32px;
+        gap: 32px;
+        .welcome-page-content{
+            max-width: 680px;
+            .welcome-page-content-text{
+                max-width: 680px;
+                align-items: center;
+                text-align: center;
+            }
+            #tryitfree-btn {
+                max-width: 100%;
+            }
+        }
+        .welcome-page-image {
+            max-width: 500px;
+        }
+    }
+}
+
+
+.footer-page{
+    display: none;
+}
