@@ -26,30 +26,102 @@
   header .navbar-parent .navbar-right #login, header .navbar-parent .navbar-right #signup {
     display: none;
   }
-}
-.page1 {
-  padding: 0;
-}
-.page1 .welcome-page-parent {
-  flex-direction: column-reverse;
-  padding: 64px 32px;
-  gap: 32px;
-}
-.page1 .welcome-page-parent .welcome-page-content {
-  max-width: 680px;
-}
-.page1 .welcome-page-parent .welcome-page-content .welcome-page-content-text {
-  max-width: 680px;
-  align-items: center;
-  text-align: center;
-}
-.page1 .welcome-page-parent .welcome-page-content #tryitfree-btn {
-  max-width: 100%;
-}
-.page1 .welcome-page-parent .welcome-page-image {
-  max-width: 500px;
-}
-
-.footer-page {
-  display: none;
+  .page1 {
+    padding: 0;
+  }
+  .page1 .welcome-page-parent {
+    flex-direction: column-reverse;
+    padding: 64px 32px;
+    gap: 32px;
+  }
+  .page1 .welcome-page-parent .welcome-page-content {
+    max-width: 680px;
+  }
+  .page1 .welcome-page-parent .welcome-page-content .welcome-page-content-text {
+    max-width: 680px;
+    align-items: center;
+    text-align: center;
+  }
+  .page1 .welcome-page-parent .welcome-page-content #tryitfree-btn {
+    max-width: 100%;
+  }
+  .page1 .welcome-page-parent .welcome-page-image {
+    max-width: 500px;
+  }
+  .page2 {
+    padding: 0;
+  }
+  .page2 .about-page-parent {
+    padding: 64px 32px;
+    gap: 48px;
+    align-items: center;
+  }
+  .page2 .about-page-parent .about-us-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .page2 .about-page-parent .about-us-main .about-us-image {
+    max-width: 500px;
+  }
+  .page2 .about-page-parent .about-us-main .about-us-content {
+    max-width: 680px;
+  }
+  .page2 .about-page-parent .about-us-main .about-us-content .about-us-sub-content {
+    max-width: 680px;
+  }
+  .page2 .about-page-parent .about-us-main .about-us-content .about-us-sub-content .about-us-details {
+    max-width: 324px;
+  }
+  .page2 .about-page-parent .about-us-main .about-us-content .about-us-sub-content .about-us-details .about-us-details-text {
+    max-width: 324px;
+  }
+  .page3 {
+    padding: 0;
+    gap: 0px;
+  }
+  .page3 .feature-container {
+    padding: 64px 32px;
+  }
+  .page3 .feature-container .features-page-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .page3 .feature-container .features-page-content .features-page-subcontent {
+    max-width: 324px;
+  }
+  .page3 .feature-container .features-page-content .features-page-subcontent .features-page-text {
+    max-width: 276px;
+  }
+  .page4 {
+    padding: 0;
+  }
+  .page4 .tools-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 64px 32px;
+    gap: 48px;
+  }
+  .page4 .tools-container .tools-image {
+    max-width: 500px;
+  }
+  .page4 .tools-container .tools-contents {
+    max-width: 680p;
+  }
+  .page5 {
+    padding: 0;
+  }
+  .page5 .tryit-container-parent {
+    padding: 64px 32px;
+  }
+  .page5 .tryit-container-parent .tryit-container {
+    padding: 64px 32px;
+  }
+  .page5 .tryit-container-parent .tryit-container .tryit-content {
+    max-width: 616px;
+  }
+  .footer-page .accordion {
+    display: none;
+  }
+  .footer-page .alternate-accordion-menu-parent {
+    display: flex;
+  }
 }/*# sourceMappingURL=style_tablet.css.map */

@@ -113,6 +113,9 @@ header .navbar-parent .navbar-right #signup {
   font-size: 14px;
   line-height: 20px;
 }
+header .navbar-parent .navbar-right #signup:hover {
+  background-color: #0E9384;
+}
 header .navbar-parent .navbar-right #navbar-alternate {
   display: none;
   padding: 18px 32px;
@@ -130,7 +133,7 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list {
   padding: 6px 32px;
   position: absolute;
   left: 0px;
-  margin-top: 20px;
+  margin-top: 18px;
 }
 header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul {
   padding: 0;
@@ -158,6 +161,7 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   padding: 0px 80px;
 }
 .page1 .welcome-page-parent {
+  margin: auto;
   max-width: 1280px;
   display: flex;
   justify-content: space-between;
@@ -202,6 +206,9 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   line-height: 28px;
   font-weight: 600px;
   gap: 12px;
+}
+.page1 .welcome-page-parent .welcome-page-content #tryitfree-btn:hover {
+  background-color: #0E9384;
 }
 .page1 .welcome-page-parent .welcome-page-image {
   max-width: 576px;
@@ -251,7 +258,7 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   color: #101828;
   font-size: 20px;
   line-height: 30px;
-  font-weight: 0;
+  font-weight: 400;
 }
 .page2 .about-page-parent .about-us-main {
   max-width: 1280px;
@@ -324,6 +331,7 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   flex-direction: column;
   gap: 20px;
   align-items: center;
+  text-align: center;
 }
 .page3 .feature-container .feature-container-title .feature-page-title-top {
   margin: auto;
@@ -432,11 +440,13 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   padding: 0px 80px;
   max-width: 1440px;
 }
-.page5 .tryit-container {
+.page5 .tryit-container-parent {
   margin: auto;
-  background-color: #125D56;
-  margin-bottom: 100px;
   max-width: 1280px;
+  padding: 96px 0px;
+}
+.page5 .tryit-container-parent .tryit-container {
+  background-color: #125D56;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -444,32 +454,32 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   gap: 64px;
   border-radius: 20px;
 }
-.page5 .tryit-container .tryit-content {
+.page5 .tryit-container-parent .tryit-container .tryit-content {
   display: flex;
   flex-direction: column;
   max-width: 1216px;
   gap: 48px;
   align-items: center;
 }
-.page5 .tryit-container .tryit-content .tryit-content-text {
+.page5 .tryit-container-parent .tryit-container .tryit-content .tryit-content-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
 }
-.page5 .tryit-container .tryit-content .tryit-content-text h1 {
+.page5 .tryit-container-parent .tryit-container .tryit-content .tryit-content-text h1 {
   font-size: 36px;
   line-height: 44px;
   color: #FFFFFF;
   font-weight: 600;
 }
-.page5 .tryit-container .tryit-content .tryit-content-text p {
+.page5 .tryit-container-parent .tryit-container .tryit-content .tryit-content-text p {
   font-size: 20px;
   line-height: 30px;
   color: #D0D5DD;
   font-weight: 400;
 }
-.page5 .tryit-container .tryit-content #tryit-btn {
+.page5 .tryit-container-parent .tryit-container .tryit-content #tryit-btn {
   max-width: 171px;
   padding: 16px 28px;
   border: none;
@@ -480,9 +490,11 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   font-weight: 400;
   line-height: 28px;
 }
+.page5 .tryit-container-parent .tryit-container .tryit-content #tryit-btn:hover {
+  background-color: #0E9384;
+}
 
 .footer-page {
-  background-color: red;
   margin: auto;
   max-width: 1440px;
   display: flex;
@@ -501,7 +513,7 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   max-width: 265px;
   max-height: 48px;
   display: flex;
-  align-items: center;
+  flex: 1;
   gap: 10px;
 }
 .footer-page .accordion .accordion-logo img {
@@ -516,6 +528,7 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
 }
 .footer-page .accordion .accordion-menu {
   max-width: 789px;
+  flex: 1;
   justify-content: space-between;
   display: flex;
   gap: 32px;
@@ -545,6 +558,9 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
+}
+.footer-page .alternate-accordion-menu-parent {
+  display: none;
 }
 .footer-page .footer-page-bottom {
   max-width: 1280px;

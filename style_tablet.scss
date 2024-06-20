@@ -1,6 +1,5 @@
 @media only screen and (max-width: 1024px){
     header{
-        // background-color: gray;
         padding: 0;
         .navbar-parent{
             padding: 18px 32px;
@@ -31,31 +30,106 @@
             }
         }
     }
-}
-.page1{
-    padding: 0;
-    .welcome-page-parent{
-        flex-direction: column-reverse;
-        padding: 64px 32px;
-        gap: 32px;
-        .welcome-page-content{
-            max-width: 680px;
-            .welcome-page-content-text{
+    .page1{
+        padding: 0;
+        .welcome-page-parent{
+            flex-direction: column-reverse;
+            padding: 64px 32px;
+            gap: 32px;
+            .welcome-page-content{
                 max-width: 680px;
-                align-items: center;
-                text-align: center;
+                .welcome-page-content-text{
+                    max-width: 680px;
+                    align-items: center;
+                    text-align: center;
+                }
+                #tryitfree-btn {
+                    max-width: 100%;
+                }
             }
-            #tryitfree-btn {
-                max-width: 100%;
+            .welcome-page-image {
+                max-width: 500px;
             }
-        }
-        .welcome-page-image {
-            max-width: 500px;
         }
     }
+    .page2{
+        padding: 0;
+        .about-page-parent{
+            padding: 64px 32px;
+            gap: 48px;
+            align-items: center;
+            .about-us-main{
+                flex-direction: column;
+                align-items: center;
+                .about-us-image {
+                    max-width: 500px;
+                }
+                .about-us-content {
+                    max-width: 680px;
+                    .about-us-sub-content{
+                        max-width: 680px;
+                        .about-us-details{
+                            max-width: 324px;
+                            .about-us-details-text{
+                                max-width: 324px;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+    }.page3{
+        padding: 0;
+        gap: 0px;
+        .feature-container {
+            padding: 64px 32px;
+            .features-page-content{
+                grid-template-columns: repeat(2, 1fr);
+                .features-page-subcontent{
+                    max-width: 324px;
+                    .features-page-text{
+                        max-width:276px ;
+                    }
+                }
+            }
+        }
+    }
+    .page4{
+        padding: 0;
+        .tools-container{
+            flex-direction: column-reverse;
+            align-items: center;
+            padding: 64px 32px;
+            gap: 48px;
+            .tools-image {
+                max-width: 500px;
+            }
+            .tools-contents{
+                max-width: 680p;
+            }
+        }
+    }
+    .page5{
+        padding: 0;
+        .tryit-container-parent{
+            padding: 64px 32px;
+            .tryit-container{
+                padding: 64px 32px;
+                .tryit-content{
+                    max-width: 616px;
+                }
+            }
+        }
+
+    }
+    .footer-page{
+        .accordion{
+            display: none;
+        }
+        .alternate-accordion-menu-parent{
+            display: flex;
+        }
+    }
+    
 }
 
-
-.footer-page{
-    display: none;
-}

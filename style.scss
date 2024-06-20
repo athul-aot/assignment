@@ -6,6 +6,7 @@ $font-color3: #FFFFFF;
 $font-color4: #D0D5DD;
 $bg-color1: #15B79E;
 $bg-color2: #125D56;
+$btn-hover:#0E9384;
 
 body {
     font-family: Poppins;
@@ -134,6 +135,9 @@ header {
                 font-size: 14px;
                 line-height: 20px;
             }
+            #signup:hover{
+                background-color: $btn-hover;
+            }
             #navbar-alternate{
                 display: none;
                 padding: 18px 32px;
@@ -151,7 +155,7 @@ header {
                     padding: 6px 32px;
                     position: absolute;
                     left: 0px;
-                    margin-top: 20px;
+                    margin-top: 18px;
                     ul{
                         padding: 0;
                         display: block;
@@ -183,6 +187,7 @@ header {
     padding: 0px 80px;
 
     .welcome-page-parent {
+        margin: auto;
         max-width: 1280px;
         display: flex;
         justify-content: space-between;
@@ -233,6 +238,9 @@ header {
                 line-height: 28px;
                 font-weight: 600px;
                 gap: 12px;
+            }
+            #tryitfree-btn:hover{
+                background-color: $btn-hover;
             }
         }
 
@@ -289,7 +297,7 @@ header {
                 color: $font-color1;
                 font-size: 20px;
                 line-height: 30px;
-                font-weight: 00;
+                font-weight: 400;
             }
         }
 
@@ -377,6 +385,7 @@ header {
             flex-direction: column;
             gap: 20px;
             align-items: center;
+            text-align: center;
 
             .feature-page-title-top {
                 margin: auto;
@@ -502,65 +511,68 @@ header {
     margin: auto;
     padding: 0px 80px;
     max-width: 1440px;
-
-    .tryit-container {
+    .tryit-container-parent{
         margin: auto;
-        background-color: $bg-color2;
-        margin-bottom: 100px;;
         max-width: 1280px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 96px 32px;
-        gap: 64px;
-        border-radius: 20px;
-
-        .tryit-content {
+        padding: 96px 0px;
+        .tryit-container {
+            background-color: $bg-color2;
             display: flex;
-            flex-direction: column;
-            max-width: 1216px;
-            gap: 48px;
             align-items: center;
-
-            .tryit-content-text {
+            justify-content: center;
+            padding: 96px 32px;
+            gap: 64px;
+            border-radius: 20px;
+    
+            .tryit-content {
                 display: flex;
                 flex-direction: column;
+                max-width: 1216px;
+                gap: 48px;
                 align-items: center;
-                gap: 20px;
-
-                h1 {
-                    font-size: 36px;
-                    line-height: 44px;
+    
+                .tryit-content-text {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
+    
+                    h1 {
+                        font-size: 36px;
+                        line-height: 44px;
+                        color: $font-color3;
+                        font-weight: 600;
+                    }
+    
+                    p {
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: $font-color4;
+                        font-weight: 400;
+                    }
+                }
+    
+                #tryit-btn {
+                    max-width: 171px;
+                    padding: 16px 28px;
+                    border: none;
                     color: $font-color3;
-                    font-weight: 600;
-                }
-
-                p {
-                    font-size: 20px;
-                    line-height: 30px;
-                    color: $font-color4;
+                    background-color: $bg-color1;
+                    border-radius: 8px;
+                    font-size: 18px;
                     font-weight: 400;
+                    line-height: 28px;
                 }
+                #tryit-btn:hover{
+                    background-color: $btn-hover;
+                }
+    
             }
-
-            #tryit-btn {
-                max-width: 171px;
-                padding: 16px 28px;
-                border: none;
-                color: $font-color3;
-                background-color: $bg-color1;
-                border-radius: 8px;
-                font-size: 18px;
-                font-weight: 400;
-                line-height: 28px;
-            }
-
         }
     }
 }
 
 .footer-page {
-    background-color: red;
     margin: auto;
     max-width: 1440px;
     display: flex;
@@ -578,7 +590,7 @@ header {
             max-width: 265px;
             max-height: 48px;
             display: flex;
-            align-items: center;
+            flex: 1;
             gap: 10px;
             img{
                 max-width:48px ;
@@ -593,6 +605,7 @@ header {
         }
         .accordion-menu{
             max-width: 789px;
+            flex: 1;
             justify-content: space-between;
             display: flex;
             gap: 32px;
@@ -623,6 +636,9 @@ header {
                 }
             }
         }
+    }
+    .alternate-accordion-menu-parent{
+        display: none;
     }
 
     .footer-page-bottom {
