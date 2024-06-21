@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 body {
   font-family: Poppins;
   padding: 0;
@@ -17,6 +18,12 @@ body h3 {
 body hr {
   max-width: 1440px;
   margin: auto;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -183,6 +190,7 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   gap: 24px;
 }
 .page1 .welcome-page-parent .welcome-page-content .welcome-page-content-text h1 {
+  font-weight: 600;
   font-size: 60px;
   line-height: 72px;
 }
@@ -255,6 +263,7 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   font-weight: 600;
 }
 .page2 .about-page-parent .about-page-text p {
+  text-align: center;
   color: #101828;
   font-size: 20px;
   line-height: 30px;
@@ -293,6 +302,8 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   max-width: 48px;
 }
 .page2 .about-page-parent .about-us-main .about-us-content .about-us-sub-content .about-us-details .about-us-details-text {
+  display: flex;
+  flex-direction: column;
   max-width: 272px;
   gap: 8px;
 }
@@ -495,15 +506,18 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
 }
 
 .footer-page {
+  align-items: center;
   margin: auto;
   max-width: 1440px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   padding: 64px 80px 48px 80px;
   gap: 64px;
 }
 .footer-page .accordion {
   max-width: 1280px;
+  width: 100%;
   display: flex;
   padding: 0px 32px;
   gap: 162px;
@@ -562,34 +576,37 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
 .footer-page .alternate-accordion-menu-parent {
   display: none;
 }
-.footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item ul {
+.footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item-list {
+  max-width: 680px;
   display: none;
-  list-style-type: none;
-  padding: 0;
+  flex-grow: 1;
 }
-.footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item ul li {
+.footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item-list li {
+  margin: 0;
   max-width: 680px;
   padding: 6px 12px;
-  background-color: blue;
   border-radius: 8px;
 }
-.footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item ul li:hover {
+.footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item-list li:hover {
   background-color: #F0FDF9;
 }
 .footer-page .footer-page-bottom {
+  width: 100%;
   max-width: 1280px;
   padding: 31px 32px;
 }
 .footer-page .footer-page-bottom .footer-page-bottom-child {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .footer-page .footer-page-bottom .footer-page-bottom-child p {
   color: #475467;
   font-size: 14px;
   line-height: 24.5px;
   font-weight: 500;
+}
+.footer-page .footer-page-bottom .footer-page-bottom-child p {
+  font-family: "Montserrat";
 }
 .footer-page .footer-page-bottom .footer-page-bottom-child .footer-page-bottom-child-icons {
   display: flex;

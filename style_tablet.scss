@@ -1,3 +1,4 @@
+@import "variables";
 @media only screen and (max-width: 1024px){
     $font-color1: #101828;
     header{
@@ -81,7 +82,6 @@
     }
     }.page3{
         padding: 0;
-        gap: 0px;
         .feature-container {
             padding: 64px 32px;
             .features-page-content{
@@ -106,13 +106,14 @@
                 max-width: 500px;
             }
             .tools-contents{
-                max-width: 680p;
+                max-width: 680px;
             }
         }
     }
     .page5{
         padding: 0;
         .tryit-container-parent{
+            max-width: 680px;
             padding: 64px 32px;
             .tryit-container{
                 padding: 64px 32px;
@@ -124,28 +125,29 @@
 
     }
     .footer-page{
-        align-items: center;
-        margin: auto;
-        // align-items: center;
+        // background-color: red;
+        // background-color: magenta;
         padding: 0;
         .accordion{
             display: none;
         }
 
         .alternate-accordion-menu-parent{
-            max-width: 744px;
-            background-color: red;
+           max-width: 748px;
+           width: 100%;
+           background-color: red;
+            // background-color: red;
             display: flex;
             flex-direction: column;
             padding: 48px 32px 0px 32px;
             gap: 48px;
-            flex: 1;
             .accordion-page-logo{
+                background-color: yellow;
                 display: flex;
                 // flex: 1;
                 max-width: 265px;
                 gap: 10px;
-                background-color: blue;
+                // background-color: blue;
                 img{
                     max-width: 48px;
                 }
@@ -157,10 +159,10 @@
                 }
             }
             .alternate-accordion-menu-footer{
+                max-width: 680px;
+                width: 100%;
                 display: flex;
                 flex-direction: column;
-                max-width: 680px;
-                flex: 1;
                 background-color:maroon;
                 gap: 16px;
                 .alternate-accordion-menu{
@@ -168,7 +170,8 @@
                     flex-direction: column;
                     max-width: 680px;
                     gap: 20px;
-                    background-color: yellow;
+                    // background-color: yellow;
+                    flex: 1;
                     .alternate-accordion-menu-item{
                         // padding: 0px 0px 20px 0px;
                         gap: 12px;
@@ -176,27 +179,35 @@
                             display: none;
                         }
                         #company-check:checked ~ #alternate-accordion-company-content{
-                            display: block;
+                            display: flex;
+                            max-width: 100%;
+                            flex-direction: column;
                         }
                         // #company-check:checked ~ #company-expand{
                         //     display: none;
                         // }
                         #sales-check:checked ~ #alternate-accordion-sales-content{
-                            display: block;
+                            display: flex;
+                            max-width: 100%;
+                            flex-direction: column;
                         }
 
                         #resources-check:checked ~ #alternate-accordion-resources-content{
-                            display: block;
+                            display: flex;
+                            max-width: 100%;
+                            flex-direction: column;
                         }
                         #support-check:checked ~ #alternate-accordion-support-content{
-                            display: block;
+                            display: flex;
+                            max-width: 100%;
+                            flex-direction: column;
                         }
 
 
                         .alternate-accordion-menu-item-title{
-                            background-color: gray;
+                            max-width: 680px;
+                            // background-color: gray;
                             display: flex;
-                            flex: 1;
                             justify-content: space-between;
                             padding:0px 0px 20px 0px ;
                             p{
@@ -213,18 +224,26 @@
                     }
                 }
                 .alternate-footer-page-bottom{
+                    max-width: 680px;
                     background-color: pink;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    // align-items: center;
+                    flex: 1;
                     max-width: 680px;
                     padding:32px 0px;
                     .alternate-footer-page-bottom-icons{
                         align-items: center;
                         max-width:168px ;
-                        background-color: orange;
+                        // background-color: orange;
+                        p{
+                            font-family: "Montserrat";
+                        }
                         img{
+                            background-color: red;
                             max-width: 36px;
+                            max-height: 36px;
                             gap: 8px;
                         }
                     }

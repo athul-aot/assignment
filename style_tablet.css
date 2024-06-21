@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @media only screen and (max-width: 1024px) {
   header {
     padding: 0;
@@ -77,7 +79,6 @@
   }
   .page3 {
     padding: 0;
-    gap: 0px;
   }
   .page3 .feature-container {
     padding: 64px 32px;
@@ -104,12 +105,13 @@
     max-width: 500px;
   }
   .page4 .tools-container .tools-contents {
-    max-width: 680p;
+    max-width: 680px;
   }
   .page5 {
     padding: 0;
   }
   .page5 .tryit-container-parent {
+    max-width: 680px;
     padding: 64px 32px;
   }
   .page5 .tryit-container-parent .tryit-container {
@@ -119,27 +121,25 @@
     max-width: 616px;
   }
   .footer-page {
-    align-items: center;
-    margin: auto;
     padding: 0;
   }
   .footer-page .accordion {
     display: none;
   }
   .footer-page .alternate-accordion-menu-parent {
-    max-width: 744px;
+    max-width: 748px;
+    width: 100%;
     background-color: red;
     display: flex;
     flex-direction: column;
     padding: 48px 32px 0px 32px;
     gap: 48px;
-    flex: 1;
   }
   .footer-page .alternate-accordion-menu-parent .accordion-page-logo {
+    background-color: yellow;
     display: flex;
     max-width: 265px;
     gap: 10px;
-    background-color: blue;
   }
   .footer-page .alternate-accordion-menu-parent .accordion-page-logo img {
     max-width: 48px;
@@ -151,10 +151,10 @@
     font-weight: 600;
   }
   .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer {
+    max-width: 680px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    max-width: 680px;
-    flex: 1;
     background-color: maroon;
     gap: 16px;
   }
@@ -163,7 +163,7 @@
     flex-direction: column;
     max-width: 680px;
     gap: 20px;
-    background-color: yellow;
+    flex: 1;
   }
   .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item {
     gap: 12px;
@@ -172,21 +172,28 @@
     display: none;
   }
   .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item #company-check:checked ~ #alternate-accordion-company-content {
-    display: block;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
   }
   .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item #sales-check:checked ~ #alternate-accordion-sales-content {
-    display: block;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
   }
   .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item #resources-check:checked ~ #alternate-accordion-resources-content {
-    display: block;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
   }
   .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item #support-check:checked ~ #alternate-accordion-support-content {
-    display: block;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
   }
   .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item .alternate-accordion-menu-item-title {
-    background-color: gray;
+    max-width: 680px;
     display: flex;
-    flex: 1;
     justify-content: space-between;
     padding: 0px 0px 20px 0px;
   }
@@ -200,20 +207,26 @@
     max-width: 24px;
   }
   .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-footer-page-bottom {
+    max-width: 680px;
     background-color: pink;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
     max-width: 680px;
     padding: 32px 0px;
   }
   .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-footer-page-bottom .alternate-footer-page-bottom-icons {
     align-items: center;
     max-width: 168px;
-    background-color: orange;
+  }
+  .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-footer-page-bottom .alternate-footer-page-bottom-icons p {
+    font-family: "Montserrat";
   }
   .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-footer-page-bottom .alternate-footer-page-bottom-icons img {
+    background-color: red;
     max-width: 36px;
+    max-height: 36px;
     gap: 8px;
   }
   .footer-page .footer-page-bottom {

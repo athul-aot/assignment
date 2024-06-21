@@ -1,13 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-$font-color1: #101828;
-$font-color2: #475467;
-$font-color3: #FFFFFF;
-$font-color4: #D0D5DD;
-$bg-color1: #15B79E;
-$bg-color2: #125D56;
-$btn-hover:#0E9384;
-
+@import "variables";
 body {
     font-family: Poppins;
     padding: 0;
@@ -30,7 +21,11 @@ body {
         margin: auto;
     }
 }
-
+ul,li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 img {
     width: 100%;
 }
@@ -211,6 +206,7 @@ header {
                 gap: 24px;
 
                 h1 {
+                    font-weight: 600;
                     font-size: 60px;
                     line-height: 72px;
                 }
@@ -294,6 +290,7 @@ header {
             }
 
             p {
+                text-align: center;
                 color: $font-color1;
                 font-size: 20px;
                 line-height: 30px;
@@ -339,6 +336,8 @@ header {
                         }
 
                         .about-us-details-text {
+                            display: flex;
+                            flex-direction: column;
                             max-width: 272px;
                             gap: 8px;
 
@@ -573,15 +572,18 @@ header {
 }
 
 .footer-page {
+    align-items: center;
     margin: auto;
     max-width: 1440px;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     padding: 64px 80px 48px 80px;
     gap: 64px;
 
     .accordion {
         max-width:1280px;
+        width: 100%;
         display: flex;
         padding: 0px 32px;
         gap: 162px;
@@ -641,38 +643,41 @@ header {
         display: none;
         .alternate-accordion-menu-footer{
             .alternate-accordion-menu{
-                .alternate-accordion-menu-item{
-                    ul{
-                        display: none;
-                        list-style-type: none;
-                        padding: 0;
+                .alternate-accordion-menu-item-list{
+                    max-width: 680px;
+                    display: none;
+                    flex-grow: 1;
                         li{
+                            margin: 0;
                             max-width: 680px;
                             padding: 6px 12px;
-                            background-color: blue;
+                            // background-color: blue;
                             border-radius: 8px;
                         }
                         li:hover{
                             background-color: #F0FDF9;
-                        }
                     }
                 }
             }
         }
     }
     .footer-page-bottom {
+        width: 100%;
         max-width: 1280px;
         padding: 31px 32px;
         .footer-page-bottom-child{
+            display: flex;
+            justify-content: space-between;
+
             p{
                 color: $font-color2;
                 font-size: 14px;
                 line-height: 24.5px;
                 font-weight: 500;
             }
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            p{
+                font-family: "Montserrat";
+            }
             .footer-page-bottom-child-icons{
                 display: flex;
                 max-width: 168px;
