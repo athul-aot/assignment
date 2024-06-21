@@ -253,17 +253,20 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   gap: 12px;
 }
 .page2 .about-page-parent .about-page-text .about-page-text-top h1 {
+  text-align: center;
   font-size: 2.25rem;
   line-height: 44px;
   font-weight: 600;
 }
 .page2 .about-page-parent .about-page-text .about-page-text-top p {
+  text-align: center;
   color: #15B79E;
   font-size: 1rem;
   line-height: 24px;
   font-weight: 600;
 }
 .page2 .about-page-parent .about-page-text p {
+  text-align: center;
   text-align: center;
   color: #101828;
   font-size: 1.25rem;

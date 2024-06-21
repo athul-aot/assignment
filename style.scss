@@ -277,12 +277,14 @@ header {
                 gap: 12px;
 
                 h1 {
+                    text-align: center;
                     font-size: 2.25rem;
                     line-height: 44px;
                     font-weight: 600;
                 }
 
                 p {
+                    text-align: center;
                     color: $bg-color1;
                     font-size: 1rem;
                     line-height: 24px;
@@ -290,7 +292,7 @@ header {
                 }
             }
 
-            p {
+            p {text-align: center;
                 text-align: center;
                 color: $font-color1;
                 font-size: 1.25rem;
