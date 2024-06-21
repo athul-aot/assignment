@@ -132,6 +132,7 @@
     display: flex;
     flex-direction: column;
     gap: 48px;
+    border-top: 1px solid #D0D5DD;
   }
   footer .footer-page .alternate-accordion-menu-parent .accordion-page-logo {
     display: flex;

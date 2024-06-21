@@ -159,6 +159,7 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li {
   padding: 10px 32px 10px 42px;
 }
 header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hover {
+  color: #107569;
   background-color: #F0FDF9;
 }
 
@@ -380,6 +381,7 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   grid-template-columns: repeat(3, 1fr);
 }
 .page3 .feature-container .features-page-content .features-page-subcontent {
+  border: 1px solid #D0D5DD;
   max-width: 384px;
   display: flex;
   flex-direction: column;
@@ -521,6 +523,7 @@ footer .footer-page {
   flex-direction: column;
   padding: 64px 80px 48px 80px;
   gap: 64px;
+  border-top: 1px solid #D0D5DD;
 }
 footer .footer-page .accordion {
   max-width: 1280px;
@@ -594,6 +597,7 @@ footer .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-f
   border-radius: 8px;
 }
 footer .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item-list li:hover {
+  color: #107569;
   background-color: #F0FDF9;
 }
 footer .footer-page .footer-page-bottom {
