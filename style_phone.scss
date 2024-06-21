@@ -1,8 +1,10 @@
 @import "variables";
 @media only screen and (max-width:480px){
+    body{
+        padding: 0px 0px 32px 0px;
+    }
     header{
         .navbar-parent{
-            background-color: red;
             padding: 16px;
         }
     }
@@ -16,14 +18,14 @@
                     max-width: 343px;
                     gap: 16px;
                     h1 {
-                        font-size: 36px;
+                        font-size: 2.25rem;;
                         line-height: 44px;
                     }
     
                     p {
                         font-weight: 400;
                         color: $font-color2;
-                        font-size: 18px;
+                        font-size: 1.125rem;;
                         line-height: 28px;
                     }
     
@@ -48,13 +50,13 @@
                 .about-page-text-top {
     
                     h1 {
-                        font-size: 30px;
+                        font-size: 1.875rem;;
                         line-height: 38px;
                     }
                 }
     
                 p {
-                    font-size: 18px;
+                    font-size: 1.125rem;;
                     line-height: 28px;
                     font-weight: 400;
                 }
@@ -89,7 +91,7 @@
     
                                 h3 {
                                     color: $font-color1;
-                                    font-size: 18px;
+                                    font-size: 1.125rem;;
                                     line-height: 28px;
                                 }
                             }
@@ -107,13 +109,13 @@
                 gap: 16px;
                 .feature-page-title-top {
                     h1 {
-                        font-size: 30px;
+                        font-size: 1.875rem;;
                         line-height: 38px;
                     }
                 }
     
                 p {
-                    font-size: 18px;
+                    font-size: 1.125rem;;
                     line-height: 28px;
                 }
             }
@@ -125,7 +127,7 @@
                     .features-page-text {
                         max-width: 295px;
                         h2 {
-                            font-size: 18px;
+                            font-size: 1.125rem;;
                             line-height: 28px;
                         }
                     }
@@ -144,11 +146,11 @@
                 gap: 16px;
                 h1 {
                     line-height: 38px;
-                    font-size: 30px;
+                    font-size: 1.875rem;;
                 }
     
                 p {
-                    font-size: 18px;
+                    font-size: 1.125rem;;
                     line-height: 28px;
                 }
             }
@@ -171,12 +173,12 @@
                         gap: 16px;
         
                         h1 {
-                            font-size: 30px;
+                            font-size: 1.875rem;;
                             line-height: 38px;
                         }
         
                         p {
-                            font-size: 18px;
+                            font-size: 1.125rem;;
                             line-height: 28px;
                         }
                     }
@@ -185,7 +187,7 @@
                         max-width: 279px;
                         width: 100%;
                         padding: 12px 20px;
-                        font-size: 16px;
+                        font-size: 1rem;;
                         font-weight: 600;
                         line-height: 24px;
                     }
@@ -194,4 +196,33 @@
             }
         }
     }
+footer{
+    .footer-page{
+        .alternate-accordion-menu-parent{
+            max-width: 480px;
+            padding: 48px 16px 0px 16px;
+            .accordion-page-logo{
+                h1{
+                    font-size: 1.875rem;
+                }
+            }
+            .alternate-accordion-menu-footer{
+                .alternate-footer-page-bottom{
+                    flex-direction: column;
+                    align-items: start;
+                    padding:16px 0px;
+                    gap: 12px;
+                    .alternate-footer-page-bottom-icons{
+                        max-width:168px ;
+                        img{
+                            max-width: 36px;
+                            max-height: 36px;
+                            gap: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 }

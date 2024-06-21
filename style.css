@@ -63,7 +63,7 @@ header .navbar-parent .navbar-left .navbar-left-logo {
 header .navbar-parent .navbar-left .navbar-left-logo p {
   color: #101828;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 24px;
 }
 header .navbar-parent .navbar-left .navbar-left-logo img {
@@ -90,7 +90,7 @@ header .navbar-parent .navbar-left .navbar-left-menu ul li {
 header .navbar-parent .navbar-left .navbar-left-menu ul li p {
   color: #475467;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
 }
 header .navbar-parent .navbar-right {
@@ -105,7 +105,7 @@ header .navbar-parent .navbar-right #login {
   background-color: #FFFFFF;
   border: none;
   padding: 6px 0;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   font-weight: 600;
 }
@@ -117,7 +117,7 @@ header .navbar-parent .navbar-right #signup {
   color: #FFFFFF;
   gap: 8px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.85rem;
   line-height: 20px;
 }
 header .navbar-parent .navbar-right #signup:hover {
@@ -153,10 +153,10 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li {
   display: block;
   gap: 10px;
   color: #475467;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 24px;
-  padding: 6px 32px 6px 42px;
+  padding: 10px 32px 10px 42px;
 }
 header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hover {
   background-color: #F0FDF9;
@@ -191,13 +191,13 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
 }
 .page1 .welcome-page-parent .welcome-page-content .welcome-page-content-text h1 {
   font-weight: 600;
-  font-size: 60px;
+  font-size: 3.75rem;
   line-height: 72px;
 }
 .page1 .welcome-page-parent .welcome-page-content .welcome-page-content-text p {
   font-weight: 400;
   color: #475467;
-  font-size: 20px;
+  font-size: 1.25 rem;
   line-height: 30px;
 }
 .page1 .welcome-page-parent .welcome-page-content .welcome-page-content-text img {
@@ -210,7 +210,7 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   color: #FFFFFF;
   background-color: #15B79E;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 28px;
   font-weight: 600px;
   gap: 12px;
@@ -230,6 +230,7 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   padding: 0px 80px;
 }
 .page2 .about-page-parent {
+  margin: auto;
   max-width: 1280px;
   padding: 96px 32px;
   display: flex;
@@ -252,20 +253,20 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   gap: 12px;
 }
 .page2 .about-page-parent .about-page-text .about-page-text-top h1 {
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 44px;
   font-weight: 600;
 }
 .page2 .about-page-parent .about-page-text .about-page-text-top p {
   color: #15B79E;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   font-weight: 600;
 }
 .page2 .about-page-parent .about-page-text p {
   text-align: center;
   color: #101828;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
   font-weight: 400;
 }
@@ -309,13 +310,13 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
 }
 .page2 .about-page-parent .about-us-main .about-us-content .about-us-sub-content .about-us-details .about-us-details-text h3 {
   color: #101828;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   line-height: 30px;
 }
 .page2 .about-page-parent .about-us-main .about-us-content .about-us-sub-content .about-us-details .about-us-details-text p {
   color: #475467;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
 }
@@ -325,7 +326,6 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   max-width: 1440px;
   padding: 0px 80px;
   background-color: #125D56;
-  gap: 10px;
 }
 .page3 .feature-container {
   margin: auto;
@@ -354,19 +354,19 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
 }
 .page3 .feature-container .feature-container-title .feature-page-title-top p {
   color: #15B79E;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   font-weight: 600;
 }
 .page3 .feature-container .feature-container-title .feature-page-title-top h1 {
   color: #FFFFFF;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
   line-height: 44px;
 }
 .page3 .feature-container .feature-container-title p {
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
   font-weight: 400;
 }
@@ -397,13 +397,15 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   text-align: center;
 }
 .page3 .feature-container .features-page-content .features-page-subcontent .features-page-text h2 {
+  color: #101828;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
 }
 .page3 .feature-container .features-page-content .features-page-subcontent .features-page-text p {
+  color: #475467;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
 }
 
@@ -431,11 +433,12 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
 }
 .page4 .tools-container .tools-contents h1 {
   line-height: 44px;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
 }
 .page4 .tools-container .tools-contents p {
-  font-size: 20px;
+  color: #475467;
+  font-size: 1.25rem;
   line-height: 30px;
   font-weight: 400;
 }
@@ -479,13 +482,13 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   gap: 20px;
 }
 .page5 .tryit-container-parent .tryit-container .tryit-content .tryit-content-text h1 {
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 44px;
   color: #FFFFFF;
   font-weight: 600;
 }
 .page5 .tryit-container-parent .tryit-container .tryit-content .tryit-content-text p {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
   color: #D0D5DD;
   font-weight: 400;
@@ -497,7 +500,7 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   color: #FFFFFF;
   background-color: #15B79E;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 28px;
 }
@@ -505,61 +508,61 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   background-color: #0E9384;
 }
 
-.footer-page {
-  align-items: center;
+footer {
+  margin: auto;
+}
+footer .footer-page {
   margin: auto;
   max-width: 1440px;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
   padding: 64px 80px 48px 80px;
   gap: 64px;
 }
-.footer-page .accordion {
+footer .footer-page .accordion {
   max-width: 1280px;
-  width: 100%;
   display: flex;
   padding: 0px 32px;
   gap: 162px;
   justify-content: space-between;
 }
-.footer-page .accordion .accordion-logo {
+footer .footer-page .accordion .accordion-logo {
   max-width: 265px;
-  max-height: 48px;
   display: flex;
-  flex: 1;
+  width: 100%;
   gap: 10px;
 }
-.footer-page .accordion .accordion-logo img {
+footer .footer-page .accordion .accordion-logo img {
   max-width: 48px;
   max-height: 48px;
 }
-.footer-page .accordion .accordion-logo h1 {
+footer .footer-page .accordion .accordion-logo h1 {
   color: #101828;
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 44px;
   font-weight: 600;
 }
-.footer-page .accordion .accordion-menu {
+footer .footer-page .accordion .accordion-menu {
+  display: flex;
   max-width: 789px;
-  flex: 1;
+  width: 100%;
   justify-content: space-between;
   display: flex;
   gap: 32px;
 }
-.footer-page .accordion .accordion-menu .accordion-menu-item {
+footer .footer-page .accordion .accordion-menu .accordion-menu-item {
   max-width: 173.25px;
   gap: 21px;
   display: flex;
   flex-direction: column;
 }
-.footer-page .accordion .accordion-menu .accordion-menu-item p {
+footer .footer-page .accordion .accordion-menu .accordion-menu-item p {
   color: #475467;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 20px;
 }
-.footer-page .accordion .accordion-menu .accordion-menu-item .accordion-menu-item-list {
+footer .footer-page .accordion .accordion-menu .accordion-menu-item .accordion-menu-item-list {
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -567,52 +570,54 @@ header .navbar-parent .navbar-right #navbar-alternate #navbar-alt-list ul li:hov
   list-style-type: none;
   gap: 16px;
 }
-.footer-page .accordion .accordion-menu .accordion-menu-item .accordion-menu-item-list li {
+footer .footer-page .accordion .accordion-menu .accordion-menu-item .accordion-menu-item-list li {
+  color: #475467;
   gap: 16px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 24px;
 }
-.footer-page .alternate-accordion-menu-parent {
+footer .footer-page .alternate-accordion-menu-parent {
   display: none;
 }
-.footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item-list {
-  max-width: 680px;
+footer .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item-list {
   display: none;
-  flex-grow: 1;
 }
-.footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item-list li {
-  margin: 0;
-  max-width: 680px;
+footer .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item-list li {
+  font-size: 0.875rem;
+  color: #475467;
+  font-weight: 600;
   padding: 6px 12px;
   border-radius: 8px;
 }
-.footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item-list li:hover {
+footer .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-accordion-menu .alternate-accordion-menu-item-list li:hover {
   background-color: #F0FDF9;
 }
-.footer-page .footer-page-bottom {
-  width: 100%;
+footer .footer-page .footer-page-bottom {
   max-width: 1280px;
   padding: 31px 32px;
 }
-.footer-page .footer-page-bottom .footer-page-bottom-child {
+footer .footer-page .footer-page-bottom .footer-page-bottom-child {
   display: flex;
   justify-content: space-between;
 }
-.footer-page .footer-page-bottom .footer-page-bottom-child p {
+footer .footer-page .footer-page-bottom .footer-page-bottom-child p {
   color: #475467;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 24.5px;
   font-weight: 500;
 }
-.footer-page .footer-page-bottom .footer-page-bottom-child p {
+footer .footer-page .footer-page-bottom .footer-page-bottom-child p {
   font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 24.5px;
+  font-size: 0.875rem;
 }
-.footer-page .footer-page-bottom .footer-page-bottom-child .footer-page-bottom-child-icons {
+footer .footer-page .footer-page-bottom .footer-page-bottom-child .footer-page-bottom-child-icons {
   display: flex;
   max-width: 168px;
   gap: 8px;
 }
-.footer-page .footer-page-bottom .footer-page-bottom-child .footer-page-bottom-child-icons img {
+footer .footer-page .footer-page-bottom .footer-page-bottom-child .footer-page-bottom-child-icons img {
   width: 36px;
 }/*# sourceMappingURL=style.css.map */

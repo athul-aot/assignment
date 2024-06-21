@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @media only screen and (max-width: 480px) {
+  body {
+    padding: 0px 0px 32px 0px;
+  }
   header .navbar-parent {
-    background-color: red;
     padding: 16px;
   }
   .page1 .welcome-page-parent {
@@ -17,13 +19,13 @@
     gap: 16px;
   }
   .page1 .welcome-page-parent .welcome-page-content .welcome-page-content-text h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 44px;
   }
   .page1 .welcome-page-parent .welcome-page-content .welcome-page-content-text p {
     font-weight: 400;
     color: #475467;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
   }
   .page1 .welcome-page-parent .welcome-page-content .welcome-page-content-text img {
@@ -42,11 +44,11 @@
     gap: 16px;
   }
   .page2 .about-page-parent .about-page-text .about-page-text-top h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 38px;
   }
   .page2 .about-page-parent .about-page-text p {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
     font-weight: 400;
   }
@@ -79,7 +81,7 @@
   }
   .page2 .about-page-parent .about-us-main .about-us-content .about-us-sub-content .about-us-details .about-us-details-text h3 {
     color: #101828;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
   }
   .page3 .feature-container {
@@ -90,11 +92,11 @@
     gap: 16px;
   }
   .page3 .feature-container .feature-container-title .feature-page-title-top h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 38px;
   }
   .page3 .feature-container .feature-container-title p {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
   }
   .page3 .feature-container .features-page-content {
@@ -105,7 +107,7 @@
     max-width: 295px;
   }
   .page3 .feature-container .features-page-content .features-page-subcontent .features-page-text h2 {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
   }
   .page4 {
@@ -122,10 +124,10 @@
   }
   .page4 .tools-container .tools-contents h1 {
     line-height: 38px;
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   .page4 .tools-container .tools-contents p {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
   }
   .page4 .tools-container .tools-image {
@@ -143,19 +145,40 @@
     gap: 16px;
   }
   .page5 .tryit-container-parent .tryit-container .tryit-content .tryit-content-text h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 38px;
   }
   .page5 .tryit-container-parent .tryit-container .tryit-content .tryit-content-text p {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
   }
   .page5 .tryit-container-parent .tryit-container .tryit-content #tryit-btn {
     max-width: 279px;
     width: 100%;
     padding: 12px 20px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 24px;
+  }
+  footer .footer-page .alternate-accordion-menu-parent {
+    max-width: 480px;
+    padding: 48px 16px 0px 16px;
+  }
+  footer .footer-page .alternate-accordion-menu-parent .accordion-page-logo h1 {
+    font-size: 1.875rem;
+  }
+  footer .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-footer-page-bottom {
+    flex-direction: column;
+    align-items: start;
+    padding: 16px 0px;
+    gap: 12px;
+  }
+  footer .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-footer-page-bottom .alternate-footer-page-bottom-icons {
+    max-width: 168px;
+  }
+  footer .footer-page .alternate-accordion-menu-parent .alternate-accordion-menu-footer .alternate-footer-page-bottom .alternate-footer-page-bottom-icons img {
+    max-width: 36px;
+    max-height: 36px;
+    gap: 8px;
   }
 }/*# sourceMappingURL=style_phone.css.map */

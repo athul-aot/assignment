@@ -63,7 +63,7 @@ header {
                 p {
                     color: $font-color1;
                     font-weight: 600;
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     line-height: 24px;
                 }
 
@@ -93,7 +93,7 @@ header {
                         p {
                             color: $font-color2;
                             font-weight: 600;
-                            font-size: 16px;
+                            font-size: 1rem;
                             line-height: 24px;
                         }
                     }
@@ -114,7 +114,7 @@ header {
                 background-color: $font-color3;
                 border: none;
                 padding: 6px 0;
-                font-size: 16px;
+                font-size: 1rem;
                 line-height: 24px;
                 font-weight: 600;
             }
@@ -127,7 +127,7 @@ header {
                 color: $font-color3;
                 gap: 8px;
                 font-weight: 600;
-                font-size: 14px;
+                font-size: 0.85rem;
                 line-height: 20px;
             }
             #signup:hover{
@@ -161,10 +161,10 @@ header {
                             display: block;
                             gap: 10px;
                             color: $font-color2;
-                            font-size: 16px;
+                            font-size: 1rem;
                             font-weight: 600;
                             line-height: 24px;
-                            padding: 6px 32px 6px 42px;
+                            padding: 10px 32px 10px 42px;
                         }
                         li:hover{
                             background-color:#F0FDF9 ;
@@ -207,14 +207,14 @@ header {
 
                 h1 {
                     font-weight: 600;
-                    font-size: 60px;
+                    font-size: 3.75rem;
                     line-height: 72px;
                 }
 
                 p {
                     font-weight: 400;
                     color: $font-color2;
-                    font-size: 20px;
+                    font-size: 1.25 rem;
                     line-height: 30px;
                 }
 
@@ -230,7 +230,7 @@ header {
                 color: $font-color3;
                 background-color: $bg-color1;
                 border-radius: 8px;
-                font-size: 18px;
+                font-size: 1.125rem;
                 line-height: 28px;
                 font-weight: 600px;
                 gap: 12px;
@@ -254,6 +254,7 @@ header {
     padding: 0px 80px;
 
     .about-page-parent {
+        margin: auto;
         max-width: 1280px;
         padding: 96px 32px;
         display: flex;
@@ -276,14 +277,14 @@ header {
                 gap: 12px;
 
                 h1 {
-                    font-size: 36px;
+                    font-size: 2.25rem;
                     line-height: 44px;
                     font-weight: 600;
                 }
 
                 p {
                     color: $bg-color1;
-                    font-size: 16px;
+                    font-size: 1rem;
                     line-height: 24px;
                     font-weight: 600;
                 }
@@ -292,7 +293,7 @@ header {
             p {
                 text-align: center;
                 color: $font-color1;
-                font-size: 20px;
+                font-size: 1.25rem;
                 line-height: 30px;
                 font-weight: 400;
             }
@@ -310,7 +311,6 @@ header {
             }
 
             .about-us-content {
-                // background-color: gold;
                 max-width: 576px;
                 display: flex;
                 flex-wrap: nowrap;
@@ -320,9 +320,7 @@ header {
 
                 .about-us-sub-content {
                     max-width: 576px;
-                    // background-color: beige;
                     display: flex;
-                    // flex-wrap: wrap;
                     gap: 32px;
 
                     .about-us-details {
@@ -343,14 +341,14 @@ header {
 
                             h3 {
                                 color: $font-color1;
-                                font-size: 20px;
+                                font-size: 1.25rem;
                                 font-weight: 600;
                                 line-height: 30px;
                             }
 
                             p {
                                 color: $font-color2;
-                                font-size: 16px;
+                                font-size: 1rem;
                                 font-weight: 400;
                                 line-height: 24px;
                             }
@@ -367,7 +365,6 @@ header {
     max-width: 1440px;
     padding: 0px 80px;
     background-color: $bg-color2;
-    gap: 10px;
 
     .feature-container {
         margin: auto;
@@ -396,14 +393,14 @@ header {
 
                 p {
                     color: $bg-color1 ;
-                    font-size: 16px;
+                    font-size: 1rem;
                     line-height: 24px;
                     font-weight: 600;
                 }
 
                 h1 {
                     color: $font-color3;
-                    font-size: 36px;
+                    font-size: 2.25rem;
                     font-weight: 600;
                     line-height: 44px;
                 }
@@ -411,7 +408,7 @@ header {
 
             p {
                 color: $font-color3;
-                font-size: 20px;
+                font-size: 1.25rem;
                 line-height: 30px;
                 font-weight: 400;
             }
@@ -445,14 +442,15 @@ header {
                     text-align: center;
 
                     h2 {
+                        color: $font-color1;
                         font-weight: 600;
-                        font-size: 20px;
+                        font-size: 1.25rem;
                         line-height: 30px;
                     }
 
-                    p {
+                    p {color: $font-color2;
                         font-weight: 400;
-                        font-size: 16px;
+                        font-size: 1rem;
                         line-height: 24px;
                     }
                 }
@@ -485,12 +483,13 @@ header {
 
             h1 {
                 line-height: 44px;
-                font-size: 36px;
+                font-size: 2.25rem;
                 font-weight: 600;
             }
 
             p {
-                font-size: 20px;
+                color: $font-color2;
+                font-size: 1.25rem;
                 line-height: 30px;
                 font-weight: 400;
             }
@@ -537,14 +536,14 @@ header {
                     gap: 20px;
     
                     h1 {
-                        font-size: 36px;
+                        font-size: 2.25rem;
                         line-height: 44px;
                         color: $font-color3;
                         font-weight: 600;
                     }
     
                     p {
-                        font-size: 20px;
+                        font-size: 1.25rem;
                         line-height: 30px;
                         color: $font-color4;
                         font-weight: 400;
@@ -558,7 +557,7 @@ header {
                     color: $font-color3;
                     background-color: $bg-color1;
                     border-radius: 8px;
-                    font-size: 18px;
+                    font-size: 1.125rem;
                     font-weight: 400;
                     line-height: 28px;
                 }
@@ -570,123 +569,125 @@ header {
         }
     }
 }
-
-.footer-page {
-    align-items: center;
+footer{
     margin: auto;
-    max-width: 1440px;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    padding: 64px 80px 48px 80px;
-    gap: 64px;
-
-    .accordion {
-        max-width:1280px;
-        width: 100%;
+    .footer-page {
+        margin: auto;
+        max-width: 1440px;
         display: flex;
-        padding: 0px 32px;
-        gap: 162px;
-        justify-content: space-between;
-        .accordion-logo {
-            max-width: 265px;
-            max-height: 48px;
+        flex-direction: column;
+        padding: 64px 80px 48px 80px;
+        gap: 64px;
+    
+        .accordion {
+            max-width:1280px;
             display: flex;
-            flex: 1;
-            gap: 10px;
-            img{
-                max-width:48px ;
-                max-height: 48px;
-            }
-            h1{
-                color: $font-color1;
-                font-size: 36px;
-                line-height: 44px;
-                font-weight: 600;
-            }
-        }
-        .accordion-menu{
-            max-width: 789px;
-            flex: 1;
+            padding: 0px 32px;
+            gap: 162px;
             justify-content: space-between;
-            display: flex;
-            gap: 32px;
-            .accordion-menu-item{
-                max-width: 173.25px;
-                gap: 21px;
+            .accordion-logo {
+                max-width: 265px;
                 display: flex;
-                flex-direction: column;
-                p{
-                    color: $font-color2;
-                    font-size: 14px;
-                    font-weight: 400;
-                    line-height: 20px;
+                width: 100%;
+                gap: 10px;
+                img{
+                    max-width:48px ;
+                    max-height: 48px;
                 }
-                .accordion-menu-item-list{
+                h1{
+                    color: $font-color1;
+                    font-size: 2.25rem;
+                    line-height: 44px;
+                    font-weight: 600;
+                }
+            }
+            .accordion-menu{
+                display: flex;
+                max-width: 789px;
+                width: 100%;
+                justify-content: space-between;
+                display: flex;
+                gap: 32px;
+                .accordion-menu-item{
+                    max-width: 173.25px;
+                    gap: 21px;
                     display: flex;
                     flex-direction: column;
-                    margin: 0;
-                    padding: 0;
-                    list-style-type: none;
-                    gap: 16px;
-                    li{
+                    p{
+                        color: $font-color2;
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                        line-height: 20px;
+                    }
+                    .accordion-menu-item-list{
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0;
+                        padding: 0;
+                        list-style-type: none;
                         gap: 16px;
-                        font-size: 16px;
-                        font-weight: 600;
-                        line-height: 24px;
-                    }
-                }
-            }
-        }
-    }
-    .alternate-accordion-menu-parent{
-        display: none;
-        .alternate-accordion-menu-footer{
-            .alternate-accordion-menu{
-                .alternate-accordion-menu-item-list{
-                    max-width: 680px;
-                    display: none;
-                    flex-grow: 1;
                         li{
-                            margin: 0;
-                            max-width: 680px;
-                            padding: 6px 12px;
-                            // background-color: blue;
-                            border-radius: 8px;
+                            color: $font-color2;
+                            gap: 16px;
+                            font-size: 1rem;
+                            font-weight: 600;
+                            line-height: 24px;
                         }
-                        li:hover{
-                            background-color: #F0FDF9;
+                    }
+                }
+            }
+        }
+        .alternate-accordion-menu-parent{
+            display: none;
+            .alternate-accordion-menu-footer{
+                .alternate-accordion-menu{
+                    .alternate-accordion-menu-item-list{
+                        display: none;
+                            li{
+                                font-size: 0.875rem;
+                                color: $font-color2;
+                                font-weight: 600;
+                                padding: 6px 12px;
+                                border-radius: 8px;
+                            }
+                            li:hover{
+                                background-color: #F0FDF9;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-page-bottom {
+            max-width: 1280px;
+            padding: 31px 32px;
+            .footer-page-bottom-child{
+                display: flex;
+                justify-content: space-between;
+    
+                p{
+                    color: $font-color2;
+                    font-size: 0.875rem;
+                    line-height: 24.5px;
+                    font-weight: 500;
+                }
+                p{
+                    font-family: "Montserrat";
+                    font-weight: 500;
+                    line-height: 24.5px;
+                    font-size: 0.875rem;
+    
+                }
+                .footer-page-bottom-child-icons{
+                    display: flex;
+                    max-width: 168px;
+                    gap: 8px;
+                    img{
+                        width: 36px;
                     }
                 }
             }
         }
     }
-    .footer-page-bottom {
-        width: 100%;
-        max-width: 1280px;
-        padding: 31px 32px;
-        .footer-page-bottom-child{
-            display: flex;
-            justify-content: space-between;
-
-            p{
-                color: $font-color2;
-                font-size: 14px;
-                line-height: 24.5px;
-                font-weight: 500;
-            }
-            p{
-                font-family: "Montserrat";
-            }
-            .footer-page-bottom-child-icons{
-                display: flex;
-                max-width: 168px;
-                gap: 8px;
-                img{
-                    width: 36px;
-                }
-            }
-        }
-    }
+    
+    
 }
-
